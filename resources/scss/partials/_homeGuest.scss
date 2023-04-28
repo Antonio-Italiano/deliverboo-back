@@ -1,0 +1,93 @@
+#home-guest {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),
+            rgba(253, 78, 9, 0.226)),
+        url("https://images-ext-2.discordapp.net/external/bWpsvgOXfP0z6nTxqf9SaFSu8MCdOJhPXiIUjZBz9x4/https/img.freepik.com/fotos-premium/resumen-borroso-cafeteria-cafeteria-restaurante-fondo_1339-170592.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    #navbar {
+        #bg-btn {
+            background-color: #ff771f;
+
+            &:hover {
+                background-color: #ffaf7a;
+            }
+
+            .btn-color {
+                background-image: url("https://icon-library.com/images/hamburger-icon-white/hamburger-icon-white-16.jpg");
+
+                &:hover {
+                    background-color: #ffaf7a;
+                }
+            }
+        }
+
+        .btn-cust-1 {
+            background-color: #ff771f;
+            margin-right: 1rem;
+            border-radius: 7px;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 0.5rem;
+
+            &:hover {
+                background-color: white;
+                color: #ff771f;
+            }
+        }
+
+        .btn-cust-2 {
+            background-color: #ffffff;
+            margin-right: 1rem;
+            border-radius: 7px;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: #ff771f;
+            margin-bottom: 0.5rem;
+
+            &:hover {
+                background-color: #ff7a21;
+                color: white;
+            }
+        }
+    }
+
+    main {
+        height: calc(100vh / 2.7);
+
+        .page-title-1 {
+            font-size: 70px;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .page-title-2 {
+            font-size: 30px;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .btn-cust {
+            background-color: #ff771f;
+            // width: 20%;
+            margin-top: 1.5rem;
+            margin-right: 1rem;
+            border-radius: 7px;
+            padding: 10px 20px;
+            font-weight: bold;
+            color: white;
+
+            &:hover {
+                background-color: #ffaf7a;
+            }
+        }
+    }
+}
+
+#navbar {
+    .img {
+        height: 80px;
+    }
+}

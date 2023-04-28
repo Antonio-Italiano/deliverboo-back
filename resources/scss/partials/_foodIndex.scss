@@ -1,0 +1,18 @@
+tbody th,
+tbody td {
+    vertical-align: middle;
+}
+
+.table-container {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+a {
+    color: black;
+}
+
+a img:hover {
+    filter: grayscale(0.3);
+}

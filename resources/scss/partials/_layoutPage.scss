@@ -1,0 +1,72 @@
+#base-layout {
+    background: linear-gradient(297.36deg,
+            #ff8c42 63.99%,
+            #feb889 64%,
+            #feb07c 87.32%,
+            #fcfbf7 143.55%);
+    min-height: 100vh;
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #navbar {
+        background-color: rgba(0, 0, 0, 0.5);
+
+        .container {
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        a {
+            color: white;
+        }
+
+        .bg-color-menu {
+            background-color: rgba(0, 0, 0, 0.5);
+
+            a:hover {
+                background-color: rgba(0, 0, 0, 0.736);
+            }
+        }
+
+        #bg-btn {
+            background-color: #ff771f;
+
+            &:hover {
+                background-color: #ffaf7a;
+            }
+
+            .btn-color {
+                background-image: url("https://icon-library.com/images/hamburger-icon-white/hamburger-icon-white-16.jpg");
+
+                &:hover {
+                    background-color: #ffaf7a;
+                }
+            }
+        }
+    }
+
+    .card {
+        // margin-top: 5rem;
+        border: #feb889;
+
+        .card-header {
+            background-color: #ff9e6279;
+            border: 0;
+        }
+
+        .btn-cust {
+            background-color: #ff8c42;
+            border: #feb07c;
+            font-weight: bold;
+        }
+
+        figure img:hover {
+            filter: grayscale(0.5);
+        }
+
+    }
+}
